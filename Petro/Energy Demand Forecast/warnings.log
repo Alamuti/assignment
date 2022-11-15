@@ -1,0 +1,23 @@
+WARNING:py.warnings:/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/sklearn/metrics/_regression.py:918: UndefinedMetricWarning: R^2 score is not well-defined with less than two samples.
+  warnings.warn(msg, UndefinedMetricWarning)
+
+ERROR:prophet.plot:Importing plotly failed. Interactive plots will not work.
+INFO:prophet:Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+DEBUG:cmdstanpy:input tempfile: /var/folders/6t/7dx26sl91r39zgj7hlq8p_8r0000gn/T/tmpkwc_28d5/2rnlb_78.json
+DEBUG:cmdstanpy:input tempfile: /var/folders/6t/7dx26sl91r39zgj7hlq8p_8r0000gn/T/tmpkwc_28d5/mud_i0bg.json
+DEBUG:cmdstanpy:idx 0
+DEBUG:cmdstanpy:running CmdStan, num_threads: None
+DEBUG:cmdstanpy:CmdStan args: ['/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=69359', 'data', 'file=/var/folders/6t/7dx26sl91r39zgj7hlq8p_8r0000gn/T/tmpkwc_28d5/2rnlb_78.json', 'init=/var/folders/6t/7dx26sl91r39zgj7hlq8p_8r0000gn/T/tmpkwc_28d5/mud_i0bg.json', 'output', 'file=/var/folders/6t/7dx26sl91r39zgj7hlq8p_8r0000gn/T/tmpkwc_28d5/prophet_model3efzgfqp/prophet_model-20221114095701.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+INFO:cmdstanpy:Chain [1] start processing
+INFO:cmdstanpy:Chain [1] done processing
+WARNING:py.warnings:/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/sklearn/metrics/_regression.py:918: UndefinedMetricWarning: R^2 score is not well-defined with less than two samples.
+  warnings.warn(msg, UndefinedMetricWarning)
+
+INFO:prophet:Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+DEBUG:cmdstanpy:input tempfile: /var/folders/6t/7dx26sl91r39zgj7hlq8p_8r0000gn/T/tmpkwc_28d5/goff72vh.json
+DEBUG:cmdstanpy:input tempfile: /var/folders/6t/7dx26sl91r39zgj7hlq8p_8r0000gn/T/tmpkwc_28d5/t174wrqy.json
+DEBUG:cmdstanpy:idx 0
+DEBUG:cmdstanpy:running CmdStan, num_threads: None
+DEBUG:cmdstanpy:CmdStan args: ['/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/prophet/stan_model/prophet_model.bin', 'random', 'seed=84641', 'data', 'file=/var/folders/6t/7dx26sl91r39zgj7hlq8p_8r0000gn/T/tmpkwc_28d5/goff72vh.json', 'init=/var/folders/6t/7dx26sl91r39zgj7hlq8p_8r0000gn/T/tmpkwc_28d5/t174wrqy.json', 'output', 'file=/var/folders/6t/7dx26sl91r39zgj7hlq8p_8r0000gn/T/tmpkwc_28d5/prophet_model66m1mbgc/prophet_model-20221114095703.csv', 'method=optimize', 'algorithm=lbfgs', 'iter=10000']
+INFO:cmdstanpy:Chain [1] start processing
+INFO:cmdstanpy:Chain [1] done processing
